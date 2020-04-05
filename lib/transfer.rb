@@ -12,7 +12,7 @@ class Transfer
   end
 
   def both_valid?
-    sender.both_valid? && receiver.both_valid? ? true : false
+    @sender.both_valid? && @receiver.both_valid? ? true : false
   end
 
   def execute_transaction 
