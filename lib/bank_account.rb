@@ -14,7 +14,7 @@ class BankAccount
   end
 
   def display_balance
-    "Your Balance is $#{@balance}."
+    puts "Your Balance is $#{@balance}."
   end
 
   def valid?
